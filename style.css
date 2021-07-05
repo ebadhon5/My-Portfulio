@@ -9,7 +9,7 @@ h1{
     color: rgb(134, 76, 108);
 
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom:150px;
 }
@@ -38,3 +38,26 @@ section{
     background-repeat: no-repeat;
     
 }
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 40px gray;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(pink,rgb(70, 2, 70));
+   border-image-slice:1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(58, 7, 16),rgb(83, 48, 83));
+   border-image-slice:1;
+}
+footer p{
+    text-align: center;
+}
+
